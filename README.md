@@ -56,21 +56,21 @@ The system includes a secure **Admin Panel** to manage the entire store:
 
 ---
 
-## 🔍 Smart Search Agent
+##  Smart Search Agent
 
 The project includes a custom-built search engine for products, implemented using the **Singleton pattern** to ensure only one instance is used across the application. This improves memory usage and keeps your search logic centralized and consistent.
 
-### ✅ Features:
+###  Features:
 - Keyword matching across:
-  - 🛒 Product **name**
-  - 🎨 Product **color**
-  - 🗂️ **Category** name
-  - 📝 Product **description**
-  - 💰 Product **price**
-- 🔡 Case-insensitive search
-- 🔎 Partial matching for flexible querying
-- 🧠 Multi-word search support (splits input like `"blue jeans"` into `["blue", "jeans"]`)
-- 🔄 Dynamically displays search results using the `productsController`
+  -  Product **name**
+  -  Product **color**
+  -  **Category** name
+  -  Product **description**
+  -  Product **price**
+-  Case-insensitive search
+-  Partial matching for flexible querying
+-  Multi-word search support (splits input like `"blue jeans"` into `["blue", "jeans"]`)
+-  Dynamically displays search results using the `productsController`
 
 ### 🛠️ How It Works:
 - Converts the search query to lowercase
