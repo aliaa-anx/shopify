@@ -1,0 +1,104 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.admin {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-height: 82.5vh;
+}
+
+.admin .content{
+    margin-top: 100px;
+}
+.admin h2 {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(13, 13, 13);
+}
+.admin header{
+    position: absolute;
+}
+
+.admin input[type="text"],
+.admin input[type="number"],
+.admin textarea,
+.admin input[type="file"],
+.admin input[type="checkbox"] {
+    width: calc(100% - 20px);
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Add the border if needed */
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none; /* Remove the outline */
+}
+
+.admin textarea,
+input[type="checkbox"] {
+    height: 100px;
+}
+
+.admin input[type="submit"] {
+    width: 100%;
+    background-color: #4c2064;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.admin input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.admin .category-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.admin .category-name {
+    font-size: 18px;
+}
+
+.admin .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.admin .fa-trash {
+    color: #ff0000;
+    font-size: 24px;
+}
+
+/* ------------------------------- */
+.admin .product_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.admin .product-id {
+    font-size: 18px;
+    margin-right: 10px; /* Adjust margin-right to add space */
+}
+
+.admin .product-name {
+    font-size: 18px;
+    flex: 1;
+    text-align: center; /* Center-align the product name */
+}
+
